@@ -2,8 +2,12 @@ import Counter from './practices/useState/Counter.jsx'
 import DocumentTitle from './practices/useEffect/DocumentTitle.jsx'
 import Timer from './practices/useEffect/Timer.jsx'
 import UsersList from './practices/useEffect/UsersList.jsx'
+import InputFocus from './practices/useRef/InputFocus.jsx'
+import PreviousValue from './practices/useRef/PreviousValue.jsx'
 
 import './App.css'
+
+
 
 
 function App() {
@@ -32,6 +36,17 @@ function App() {
         <br />
 
         <UsersList />
+      </div>
+
+      {/* useRef Section */}
+      <div className="practice-box">
+        <InputFocus/>
+
+        <br />
+        <hr />
+        <br />
+
+        <PreviousValue/>
       </div>
     </div>
   )
