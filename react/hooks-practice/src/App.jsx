@@ -1,19 +1,38 @@
-import {useState} from 'react';
-import './App.jsx';
+import Counter from './practices/useState/Counter.jsx'
+import DocumentTitle from './practices/useEffect/DocumentTitle.jsx'
+import Timer from './practices/useEffect/Timer.jsx'
+import UsersList from './practices/useEffect/UsersList.jsx'
 
-function App(){
-  const[count, setCount] = useState(0);
+import './App.css'
 
 
-  return(
-    <div>
+function App() {
+  return (
+    <div className="app-container">
       <h1>React Hooks Practice</h1>
 
-      <h2>Counter:{count}</h2>
+      {/* useState Section */}
+      <div className="practice-box">
+        <Counter />
+      </div>
 
-      <button onClick={()=>setCount(count+1)}>Increase</button>
-      <button onClick={()=>setCount(count-1)}>Decrease</button>
-      <button onClick={()=>setCount(0)}>Reset</button>
+      {/* useEffect Section */}
+      <div className="practice-box">
+
+        <DocumentTitle />
+
+        <br />
+        <hr />
+        <br />
+
+        <Timer />
+
+        <br />
+        <hr />
+        <br />
+
+        <UsersList />
+      </div>
     </div>
   )
 }
