@@ -4,8 +4,10 @@ import Timer from './practices/useEffect/Timer.jsx'
 import UsersList from './practices/useEffect/UsersList.jsx'
 import InputFocus from './practices/useRef/InputFocus.jsx'
 import PreviousValue from './practices/useRef/PreviousValue.jsx'
+import Dependencies from './practices/useEffect/Dependencies.jsx'
 
 import './App.css'
+
 
 
 
@@ -47,6 +49,11 @@ function App() {
         <br />
 
         <PreviousValue/>
+      </div>
+
+      {/* Dependencies Section */}
+      <div className="practice-box">
+        <Dependencies/>
       </div>
     </div>
   )
