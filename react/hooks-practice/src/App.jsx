@@ -5,8 +5,10 @@ import UsersList from './practices/useEffect/UsersList.jsx'
 import InputFocus from './practices/useRef/InputFocus.jsx'
 import PreviousValue from './practices/useRef/PreviousValue.jsx'
 import Dependencies from './practices/useEffect/Dependencies.jsx'
+import WindowWidth from './practices/useEffect/WindowWidth.jsx'
 
 import './App.css'
+
 
 
 
@@ -54,6 +56,12 @@ function App() {
       {/* Dependencies Section */}
       <div className="practice-box">
         <Dependencies/>
+      </div>
+
+
+      {/* Cleanup Section */}
+      <div className="practice-box">
+        <WindowWidth/>
       </div>
     </div>
   )
