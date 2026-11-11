@@ -8,6 +8,7 @@ import Dependencies from './practices/useEffect/Dependencies.jsx'
 import WindowWidth from './practices/useEffect/WindowWidth.jsx'
 
 import './App.css'
+import EmployeeStats from './practices/derived-state/EmployeeStats.jsx'
 
 
 
@@ -62,6 +63,12 @@ function App() {
       {/* Cleanup Section */}
       <div className="practice-box">
         <WindowWidth/>
+      </div>
+
+
+      {/* Derived Section */}
+      <div className="practice-box">
+        <EmployeeStats/>
       </div>
     </div>
   )
