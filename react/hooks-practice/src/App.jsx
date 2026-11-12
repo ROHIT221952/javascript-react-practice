@@ -6,6 +6,7 @@ import InputFocus from './practices/useRef/InputFocus.jsx'
 import PreviousValue from './practices/useRef/PreviousValue.jsx'
 import Dependencies from './practices/useEffect/Dependencies.jsx'
 import WindowWidth from './practices/useEffect/WindowWidth.jsx'
+import ReactRouterApp from './practices/react-router/ReactRouterApp.jsx'
 
 import './App.css'
 import EmployeeStats from './practices/derived-state/EmployeeStats.jsx'
@@ -70,6 +71,13 @@ function App() {
       <div className="practice-box">
         <EmployeeStats/>
       </div>
+
+
+      {/* React Router Section */}
+      <div className="practice-box">
+        <ReactRouterApp/>
+      </div>
+
     </div>
   )
 }
