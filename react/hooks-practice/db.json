@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rohit",
+      "email": "rohit@gmail.com",
+      "department": "Frontend"
+    },
+    {
+      "id": 2,
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "department": "Backend"
+    },
+    {
+      "id": 3,
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "department": "HR"
+    }
+  ]
+}

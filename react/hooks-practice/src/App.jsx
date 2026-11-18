@@ -25,6 +25,10 @@ import EmployeePatchService from "./practices/api-practice/axios-practice/Employ
 import EmployeeDeleteService from "./practices/api-practice/axios-practice/EmployeeDeleteService.jsx";
 import EmployeeListIntegrated from "./practices/api-practice/axios-practice/EmployeeListIntegrated.jsx";
 import EmployeeFinalPractice from "./practices/api-practice/final-practice/EmployeeFinalPractice.jsx";
+import LoadingPractice from "./practices/api-practice/LoadingPractice.jsx";
+import PaginationPractice from "./practices/api-practice/PaginationPractice.jsx";
+import FormSubmissionPractice from "./practices/api-practice/FormSubmissionPractice.jsx";
+import ApiMockingPractice from "./practices/api-practice/ApiMockingPractice.jsx";
 
 
 
@@ -154,6 +158,26 @@ function App() {
       {/* Employee API Management */}
       <div className="practice-box">
         <EmployeeFinalPractice/>
+      </div>
+
+      {/* Loading */}
+      <div className="practice-box">
+        <LoadingPractice/>
+      </div>
+
+      {/* Pagination Practice */}
+      <div className="practice-box">
+        <PaginationPractice/>
+      </div>
+
+      {/* Form Submission Practice */}
+      <div className="practice-box">
+        <FormSubmissionPractice/>
+      </div>
+
+      {/* API Mocking Practice */}
+      <div className="practice-box">
+        <ApiMockingPractice/>
       </div>
     </div>
   );
